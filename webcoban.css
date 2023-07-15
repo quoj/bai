@@ -1,0 +1,232 @@
+/* Thiết lập font chữ và nền */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+ }
+ 
+ /* Căn chỉnh phần tiêu đề */
+ h1, h2 {
+    color: #333;
+    text-align: center;
+ }
+ 
+ /* Căn chỉnh thanh điều hướng */
+ nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #333;
+ }
+ 
+ nav ul li {
+    margin: 0 10px;
+ }
+ 
+ nav ul li a {
+    color: #fff;
+    text-decoration: none;
+ }
+ nav {
+   background-color: black; /* Màu nền đen */
+   height: 50px; /* Chiều cao của thanh điều hướng */
+   color: white; /* Màu chữ trắng */
+}
+
+.nav-links {
+   display: flex;
+   justify-content: flex-start;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+.nav-links li {
+   margin-right: 20px; /* Khoảng cách giữa các phần tử */
+}
+
+.nav-links li:last-child {
+   margin-right: 0; /* Loại bỏ khoảng cách cuối cùng */
+}
+
+.nav-links li a {
+   color: white; /* Màu chữ trắng */
+   text-decoration: none;
+}
+
+.nav-links li a:hover {
+   text-decoration: underline; /* Mô phỏng hiệu ứng hover */
+}
+
+ 
+ /* Căn chỉnh phần dự án */
+ section#section3 div {
+    display: flex;
+    align-items: center;
+ }
+ 
+ section#section3 img {
+    width: 200px;
+    height: auto;
+    margin-right: 10px;
+ }
+ 
+ /* Căn chỉnh trang liên hệ */
+ section#section4 form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ 
+ section#section4 form label {
+    margin: 5px 0;
+ }
+ 
+ section#section4 form input,
+ section#section4 form textarea {
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 10px;
+ }
+ 
+ section#section4 form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+ }
+ 
+ /* Căn chỉnh chân trang */
+ footer {
+    text-align: center;
+    background-color: #666;
+    color: #fff;
+    padding: 10px 0;
+ }
+ body {
+   background-color: #f2f2f2;
+}
+header nav {
+   background-color: #333;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px;
+}
+
+/* Định dạng cho các liên kết điều hướng */
+.nav-links a {
+   color: #fff;
+   text-decoration: none;
+   margin-left: 20px;
+   font-size: 16px;
+}
+
+/* Định dạng cho logo */
+.logo h1 {
+   color: #fff;
+   font-size: 24px;
+   margin: 0;
+}
+<style>
+    /* Định dạng cho tiêu đề hấp dẫn về danh mục đầu tư */
+    .hero-text h2 {
+        font-family: 'Arial', sans-serif;
+        font-size: 32px;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    /* Định dạng cho nội dung của tiêu đề */
+    .hero-text p {
+        font-family: 'Arial', sans-serif;
+        font-size: 16px;
+        color: #666;
+        margin-bottom: 40px;
+    }
+
+    /* Định dạng cho tiêu đề kỹ năng và kiến thức chuyên môn */
+    #skills h3 {
+        font-family: 'Arial', sans-serif;
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    /* Định dạng cho các kỹ năng */
+    .skill h4 {
+        font-family: 'Arial', sans-serif;
+        font-size: 20px;
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    /* Định dạng cho nội dung của kỹ năng */
+    .skill p {
+        font-family: 'Arial', sans-serif;
+        font-size: 16px;
+        color: #666;
+        margin-bottom: 20px;
+    }
+
+    /* Định dạng cho tiêu đề dự án */
+    #projects h3 {
+        font-family: 'Arial', sans-serif;
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    /* Định dạng cho tiêu đề của từng dự án */
+    .project h4 {
+        font-family: 'Arial', sans-serif;
+        font-size: 20px;
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    /* Định dạng cho nội dung của dự án */
+    .project p {
+        font-family: 'Arial', sans-serif;
+        font-size: 16px;
+        color: #666;
+        margin-bottom: 20px;
+    }
+
+    /* Định dạng cho tiêu đề của phần liên hệ */
+    #section4 h2 {
+        font-family: 'Arial', sans-serif;
+        font-size: 24px;
+        color: #333
+    }
+    <style>
+    /* Định dạng chung cho tất cả các kích thước màn hình */
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+    }
+
+    /* Định dạng riêng cho kích thước màn hình nhỏ */
+    @media screen and (max-width: 767px) {
+        /* Đặt lại bố cục và kiểu cho màn hình nhỏ */
+        header {
+            padding: 10px;
+        }
+    }
+
+    /* Định dạng riêng cho kích thước màn hình lớn */
+    @media screen and (min-width: 768px) {
+        /* Đặt lại bố cục và kiểu cho màn hình lớn */
+        header {
+            padding: 40px;
+        }
+    }
+</style>
+
+p {
+   color: #333;
+   font-weight: bold;
+}
